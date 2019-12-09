@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "multiply a and b",
+        "description": "",
+        "id": "multiplication;multiply-a-and-b",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 635092300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have variable a",
+            "match": {
+              "location": "Firstcucumber_multiplication.i_have_variable_a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 626400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have variable b",
+            "match": {
+              "location": "Firstcucumber_multiplication.i_have_variable_b()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I multiply a and b",
+            "match": {
+              "location": "Firstcucumber_multiplication.i_multiplication_a_and_b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 609100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I display the Result",
+            "match": {
+              "location": "Firstcucumber_multiplication.i_display_the_Result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multiplication",
+    "description": "multiply two numbers",
+    "id": "multiplication",
+    "keyword": "Feature",
+    "uri": "Firstcucumber_multiplication.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "multiply a and b using data table",
+        "description": "",
+        "id": "multiply-using-data-tables;multiply-a-and-b-using-data-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4339800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have variable a, which accepts value from table",
+            "match": {
+              "location": "Secondcucumber_multiplication.i_have_variable_a_datatable(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "20"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 583900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have variable b, which accepts value from table",
+            "match": {
+              "location": "Secondcucumber_multiplication.i_have_variable_b_datatable(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "30"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I multiply a and b taking from DT",
+            "match": {
+              "location": "Secondcucumber_multiplication.i_multiplication_a_and_b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 556800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I display the Product",
+            "match": {
+              "location": "Secondcucumber_multiplication.i_display_the_Result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multiply using data tables",
+    "description": "Multiplication using data tables",
+    "id": "multiply-using-data-tables",
+    "keyword": "Feature",
+    "uri": "Secondcucumber_multiplication.feature"
+  }
+]

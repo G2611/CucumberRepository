@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.64194">
+<testcase classname="Multiplication" name="multiply a and b" time="0.636379">
+<system-out><![CDATA[Given I have variable a.....................................................passed
+And I have variable b.......................................................passed
+When I multiply a and b.....................................................passed
+Then I display the Result...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Multiply using data tables" name="multiply a and b using data table" time="0.005561">
+<system-out><![CDATA[Given I have variable a, which accepts value from table.....................passed
+And I have variable b, which accepts value from table.......................passed
+When I multiply a and b taking from DT......................................passed
+Then I display the Product..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
